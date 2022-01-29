@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 10px;
+}
+.frame__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  color: white;
+  line-height: 1px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+.frame__texto1 {
+  position: relative;
+  left: 6px;
+  font-size: 90px;
+  margin: 40px 0 0 0;
+  display: block;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+}
+.frame__texto2 {
+  display: block;
+  position: relative;
+  left: 4px;
+  font-size: 25.5px;
+  margin: 40px 0 0 0;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  word-spacing: 10px;
+}
+.frame__hundred {
+  display: flex;
+  z-index: 3;
+}
+.frame__uno {
+  width: 60px;
+  height: 100px;
+}
+.frame__uno--pt1 {
+  position: relative;
+  top: 4px;
+  left: 12px;
+  width: 30px;
+  height: 45px;
+  background-color: white;
+  border-radius: 7px;
+  clear: both;
+  float: left;
+  z-index: 1;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.59);
+  transform: rotate(45deg);
+}
+.frame__uno--pt2 {
+  position: relative;
+  width: 30px;
+  height: 100%;
+  float: right;
+  border-radius: 7px;
+  background-color: white;
+  z-index: 4;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.59);
+}
+.frame__zero--a {
+  position: relative;
+  left: -10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.59);
+  z-index: -2;
+}
+.frame__zero--b {
+  position: relative;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.59);
+  z-index: -3;
+}
+.frame__zero--inter {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: relative;
+  top: 24px;
+  left: 24px;
+  box-shadow: 0px 0px 0px 25px #ffffff;
+}
+
+.frame--gradient {
+  background: #7637c4;
+  background: linear-gradient(45deg, #7637c4 25%, #00a8ff 100%);
+}
